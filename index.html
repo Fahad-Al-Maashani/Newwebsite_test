@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fahad Al Maashani - Engineering Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="background-animation">
+        <div class="circuit-pattern"></div>
+        <div class="floating-particles"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Fahad Al Maashani</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#resume" class="nav-link">Resume</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Fahad Al Maashani</span>
+                </h1>
+                <p class="hero-subtitle">Embedded Systems | AI Engineer | Optics Specialist</p>
+                <p class="hero-description">
+                    Bridging the gap between hardware and intelligence software through innovative engineering solutions
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="digital-circuit">
+                    <svg class="circuit-svg" viewBox="0 0 400 400">
+                        <!-- Circuit paths -->
+                        <path class="circuit-path" d="M50 200 L150 200 L200 150 L250 200 L350 200" stroke="#00d4ff" stroke-width="2" fill="none"/>
+                        <path class="circuit-path" d="M200 50 L200 150 L250 200 L200 250 L200 350" stroke="#00d4ff" stroke-width="2" fill="none"/>
+                        <path class="circuit-path" d="M100 100 L200 150 L300 100" stroke="#4ecdc4" stroke-width="2" fill="none"/>
+                        <path class="circuit-path" d="M100 300 L200 250 L300 300" stroke="#4ecdc4" stroke-width="2" fill="none"/>
+                        
+                        <!-- Circuit nodes -->
+                        <circle class="circuit-node" cx="200" cy="200" r="8" fill="#00d4ff"/>
+                        <circle class="circuit-node" cx="100" cy="100" r="6" fill="#4ecdc4"/>
+                        <circle class="circuit-node" cx="300" cy="100" r="6" fill="#4ecdc4"/>
+                        <circle class="circuit-node" cx="100" cy="300" r="6" fill="#4ecdc4"/>
+                        <circle class="circuit-node" cx="300" cy="300" r="6" fill="#4ecdc4"/>
+                        <circle class="circuit-node" cx="200" cy="150" r="5" fill="#ff6b6b"/>
+                        <circle class="circuit-node" cx="200" cy="250" r="5" fill="#ff6b6b"/>
+                        
+                        <!-- Logic gates -->
+                        <rect class="logic-gate" x="180" y="130" width="40" height="20" fill="none" stroke="#00d4ff" stroke-width="2"/>
+                        <rect class="logic-gate" x="180" y="250" width="40" height="20" fill="none" stroke="#00d4ff" stroke-width="2"/>
+                        <polygon class="logic-gate" points="80,90 120,90 110,110 80,110" fill="none" stroke="#4ecdc4" stroke-width="2"/>
+                        <polygon class="logic-gate" points="280,90 320,90 310,110 280,110" fill="none" stroke="#4ecdc4" stroke-width="2"/>
+                    </svg>
+                    
+                    <!-- Binary data streams -->
+                    <div class="binary-stream stream-1">
+                        <span class="binary-digit">1</span>
+                        <span class="binary-digit">0</span>
+                        <span class="binary-digit">1</span>
+                        <span class="binary-digit">1</span>
+                        <span class="binary-digit">0</span>
+                    </div>
+                    <div class="binary-stream stream-2">
+                        <span class="binary-digit">0</span>
+                        <span class="binary-digit">1</span>
+                        <span class="binary-digit">0</span>
+                        <span class="binary-digit">1</span>
+                        <span class="binary-digit">1</span>
+                    </div>
+                    <div class="binary-stream stream-3">
+                        <span class="binary-digit">1</span>
+                        <span class="binary-digit">1</span>
+                        <span class="binary-digit">0</span>
+                        <span class="binary-digit">0</span>
+                        <span class="binary-digit">1</span>
+                    </div>
+                    <div class="binary-stream stream-4">
+                        <span class="binary-digit">0</span>
+                        <span class="binary-digit">0</span>
+                        <span class="binary-digit">1</span>
+                        <span class="binary-digit">1</span>
+                        <span class="binary-digit">0</span>
+                    </div>
+                    
+                    <!-- Information labels -->
+                    <div class="info-label label-1">AI</div>
+                    <div class="info-label label-2">MCU</div>
+                    <div class="info-label label-3">Optics</div>
+                    <div class="info-label label-4">FPGA</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        I'm a passionate engineer with expertise spanning embedded systems, artificial intelligence, 
+                        and optical engineering. My work focuses on creating intelligent hardware solutions that 
+                        bridge the physical and digital worlds.
+                    </p>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-microchip"></i>
+                            </div>
+                            <h3>Embedded Systems</h3>
+                            <p>Microcontrollers, IoT, Real-time Systems, FPGA, Formal Verification</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <h3>Artificial Intelligence</h3>
+                            <p>Machine Learning, Computer Vision, Neural Networks, Deep Learning, Agentic AI</p>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-eye"></i>
+                            </div>
+                            <h3>Optics Engineering</h3>
+                            <p>Optical Systems, Photonics Switch Systems, DWDM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Predictive model for compute vision system</h3>
+                        <p>AI-powered embedded vision system for real-time object detection and predicitng nationaality of user.</p>
+                        <div class="project-tags">
+                            <span class="tag">Computer Vision</span>
+                            <span class="tag">Embedded AI</span>
+                            <span class="tag">OpenCV</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Optical Measurement Device</h3>
+                        <p>High-precision optical measurement system with automated calibration</p>
+                        <div class="project-tags">
+                            <span class="tag">Optics</span>
+                            <span class="tag">Precision Engineering</span>
+                            <span class="tag">Automation</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>IoT Environmental Monitor</h3>
+                        <p>Wireless sensor network for environmental monitoring with edge computing</p>
+                        <div class="project-tags">
+                            <span class="tag">IoT</span>
+                            <span class="tag">Edge Computing</span>
+                            <span class="tag">Wireless</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="resume">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-content">
+                <div class="resume-section">
+                    <h3>Education</h3>
+                    <div class="resume-item">
+                        <h4>Bachelor of Science in Electrical & Electronics Engineering</h4>
+                        <p class="resume-meta">Dhofar University  • 2016 - 2020</p>
+                        <p>Dean Honor List.</p>
+                        <p>Winner 5G use cases competiton in Oman</p>
+                        <p>Winner Star award at Ericsson training HQ in sweden among MENA region students</p>
+                        <p>BSc thesis: The use of autonomous naviagtion system in quadcopter drone for disaster management</p>
+                    </div>
+                </div>
+                
+                <div class="resume-section">
+                    <h3>Experience</h3>
+                    <div class="resume-item">
+                        <h4>Optice Resident Engineer</h4>
+                        <p class="resume-meta">Nokia Company • June 2025 - Present</p>
+                        <p>Worked as Optics Resident Engineer in nokia.</p>
+                    </div>
+                    <div class="resume-item">
+                        <h4>MS automated Operation Engineer</h4>
+                        <p class="resume-meta">Ericsson • January 2021- July 2022</p>
+                        <p>Worked as network operation engineer for front office to ensure network KPI work for 24/7</p>
+                    </div>
+                </div>
+                
+                <div class="resume-download">
+                    <a href="/Users/fahadalmaashani/Documents/Beautiful Site/clude latest website/FahadCV.pdf" download class="btn btn-primary">
+                        <i class="fas fa-download"></i> Download Full Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>fahadalmaashani@outlook.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+968 ********</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Salalah, Oman</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <div id="form-container">
+                        <form action="https://formspree.io/f/mrbkdrkj" method="POST" id="contact-form">
+                          <input type="text" name="name" placeholder="Your Name" required>
+                          <input type="email" name="email" placeholder="Your Email" required>
+                          <input type="text" name="subject" placeholder="Subject" required>
+                          <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                          <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                        <div id="form-success" style="display:none; margin-top: 1rem; color: #4ecdc4; font-weight: bold;">
+                          ✅ Message sent successfully!
+                        </div>
+                      </div>
+                      
+                </div>
+            </div>
+            
+            <div class="social-links">
+                <h3>Connect With Me</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Fahad Al Maashani. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
